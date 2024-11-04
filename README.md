@@ -5,23 +5,8 @@
 ####  _(structured / processable data) There has to be a starting point :)_
 * [Passenger railway operators static timetable, published anually, XML format](https://data.gov.ro/organization/sc-informatica-feroviara-sa)
 * [Iași urban transit: GPS positions in real-time, JSON](https://gps.sctpiasi.ro/json)
-* [Bucharest urban transit: lines, stations, departures in real time, timetables, GPS positions](https://info.stbsa.ro/rp/api/lines/)
-<details>
-  <summary>Details</summary>
-  
-  ```
-  https://info.stbsa.ro/rp/api/lines/
-  https://info.stbsa.ro/rp/api/lines/:line_id/
-  https://info.stbsa.ro/rp/api/lines/:line_id/direction/:direction_id
-  https://info.stbsa.ro/rp/api/lines/:line_id/stops/:stop_id?lang=:lang_code
-  https://info.stbsa.ro/rp/api/lines/:line_id/vehicles/:direction_id
-  https://info.stbsa.ro/rp/api/notifications
-  ```
-  
-  segment_path line shape is to be decoded with https://github.com/jieter/Leaflet.encoded
-</details>
-
-  * [Constanța urban transit: lines, stations, departures in real time, timetables, GPS positions](https://info.ctbus.ro/rp/api/lines/)
+* [Bucharest urban transit: lines, stations, departures in real time, timetables, GPS positions](https://gtfs.tpbi.ro/regional/)
+* [Constanța urban transit: lines, stations, departures in real time, timetables, GPS positions](https://info.ctbus.ro/rp/api/lines/)
 
 <details>
   <summary>Details</summary>
